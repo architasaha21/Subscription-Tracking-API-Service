@@ -16,4 +16,4 @@ userRouter.put('/:id', (req, res) => res.json({ title: 'UPDATE user' }));
 
 userRouter.delete('/:id', (req, res) => res.json({ title: 'DELETE user' }));
 
-export default UserRouter
+export default userRouter
